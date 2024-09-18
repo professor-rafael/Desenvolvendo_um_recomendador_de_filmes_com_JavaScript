@@ -4,7 +4,7 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "Para mais informações, se inscreve no https://www.youtube.com/watch?v=bbhM4LtY34E ");
+  createElement("h2", "Mais informações em https://www.youtube.com/watch?v=bbhM4LtY34E");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
   campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
