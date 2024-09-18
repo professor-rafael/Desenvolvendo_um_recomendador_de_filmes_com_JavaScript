@@ -1,0 +1,12 @@
+html, body {
+    margin: 30px;
+    padding: 10;
+    background-color: rgb(100,100,100);
+  }
+  
+  canvas {
+    display: block;
+    filter: drop-shadow(10px 10px 20px rgb(960, 680, 153));
+    border-radius: 10px;
+  }
+  
