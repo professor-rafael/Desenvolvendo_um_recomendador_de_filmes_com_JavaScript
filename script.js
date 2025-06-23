@@ -4,7 +4,7 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "@rasinformática");
+  createElement("h2", "RasinformaticA");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
   campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background("#8BC34A");
+  background("grey");
   let idade = campoIdade.value();
   let gostaDeFantasia = campoFantasia.checked();
   let gostaDeAventura = campoAventura.checked();
@@ -25,7 +25,7 @@ function draw() {
 }
 
 function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
-  if (idade >= 10) {
+ if (idade >= 10) {
     if (idade >= 14) {
       return "Rafael, Fabiula, Maria Helena, Isabel";
     } else {
@@ -45,7 +45,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   } else {
     if (gostaDeFantasia) {
-      return "RasinformáticA";
+      return "RasinformaticA";
     } else {
       return "Todo Hacker tem um início";
     }
